@@ -1,3 +1,7 @@
+'''
+20180120	jlhung	v1.0
+'''
+
 a = [1, 2]
 for i in range(2, 40):
 	a.append(a[i-1] + a[i-2])
