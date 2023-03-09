@@ -10,6 +10,7 @@ while True:
 		break
 	
 	for i in n:
+		i = i.lower()
 		if i != ' ':
 			print(key[i], end="")
 		else:
