@@ -68,25 +68,11 @@ for s in stdin :
 
 
     n = int ( s )
-
-
-    print ( f ' { u } .' , end = '' )
-
-
-    if ( n > 0 ):
-
-
-        f ( n )
-
-
-            
-
-
-    else : print ( ' 0' )
-
-
-    print ( ' \n ' )
-
-
-    u += 1
-
+   
+    print("%4d." %u,end='')
+    if(n>0):
+        f(n)
+    else:print(' 0',end='')
+    
+    u+=1
+    print("")
